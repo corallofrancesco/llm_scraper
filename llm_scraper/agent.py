@@ -1,6 +1,6 @@
 import re
-from ._openai import OpenaiInterface
-from ._scraping import ChromeScraper, FirefoxScraper
+from .openai import OpenaiInterface
+from .scraping import ChromeScraper, FirefoxScraper
 
 
 DEFAULT_MODEL = "gpt-3.5-turbo"
